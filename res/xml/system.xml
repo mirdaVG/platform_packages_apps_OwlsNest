@@ -32,6 +32,12 @@
         android:summary="@string/show_cpu_info_summary" 
         android:defaultValue="false" />
 
+    <Preference 
+        android:key="wakelock_blocker" 
+        android:fragment="com.aosip.owlsnest.advanced.WakeLockBlocker" 
+        android:title="@string/wakelock_blocker_title" 
+        android:summary="@string/wakelock_blocker_summary" />
+
     <!-- Flashlight on incoming calls -->
     <ListPreference
         android:key="flashlight_on_call"
